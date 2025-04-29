@@ -342,7 +342,6 @@ body {
   display: inline-block; /* atau block juga bisa, tergantung konteks layout */
 }
 
-
 ul li p {
   max-width: 600px;
 }
