@@ -334,20 +334,14 @@ body {
 }
 .foto-kegiatan {
   width: 300px;
-  height: 200px;
+  height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin: 10px 0; /* margin atas dan bawah, kiri-kanan 0 */
   transition: transform 0.3s ease;
+  display: inline-block; /* atau block juga bisa, tergantung konteks layout */
 }
 
-.foto-kegiatan {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 10px auto;
-}
 
 ul li p {
   max-width: 600px;
