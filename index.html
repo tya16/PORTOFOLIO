@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Satya Portofolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+    <aside class="sidebar">
+      <br /><br />
+      <h2>Menu</h2>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Beranda</a></li>
+        <li><a href="#" onclick="showPage('about')">Tentang Saya</a></li>
+        <li><a href="#" onclick="showPage('projects')">Proyek</a></li>
+        <li><a href="#" onclick="showPage('contact')">Kontak</a></li>
+      </ul>
+    </aside>
+
+    <main class="main-content">
+      <header class="header">
+        <div class="profile">
+          <img src="picture/profil.jpeg" alt="Foto Profil" class="profile-pic" />
+          <div class="profile-text">
+            <h1>Halo, Saya Satya Anggradika</h1>
+            <p>Selamat datang di portofolio saya.</p>
+          </div>
+        </div>
+      </header>
+
+      <section id="home" class="content-section home-section">
+        <div class="home-container">
+          <div class="home-text">
+            <h2>Selamat Datang di Portofolio Saya!</h2>
+            <br />
+            <p>Perkenalkan, saya <strong>Satya Anggradika</strong>, Mahasiswa Teknik Elektro dengan minat besar di bidang mikrokontroler, serta service dan perbaikan laptop.</p>
+            <p>Portofolio ini berisi beberapa proyek yang pernah saya kerjakan, keahlian yang saya miliki, serta cara menghubungi saya.</p>
+            <p>Silakan telusuri bagian <strong>Tentang Saya</strong> untuk mengenal saya lebih dalam, atau langsung lihat <strong>Proyek</strong> yang sudah saya buat!</p>
+
+            <div style="margin-top: 20px">
+              <a href="#" onclick="showPage('about')" style="padding: 10px 15px; background-color: #3498db; color: white; text-decoration: none; border-radius: 5px;">Tentang Saya</a>
+              <a href="#" onclick="showPage('projects')" style="padding: 10px 15px; background-color: #2ecc71; color: white; text-decoration: none; border-radius: 5px; margin-left: 10px;">Lihat Proyek</a>
+            </div>
+          </div>
+
+          <div class="home-image">
+            <img src="picture/project/chibi.png" alt="Foto Satya" />
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="content-section hidden">
+        <h2>Tentang Saya</h2>
+        <br />
+        <p>Halo! Nama saya <strong>I Putu Satya Anggradika</strong>, biasa dipanggil Satya. Saya salah satu mahasiswa aktif di <strong>Politeknik Negeri Bali</strong>, 
+        jurusan <strong>Teknik Elektro</strong>, program studi <strong>D4 Teknik Otomasi</strong>.</p>
+        <h3>Pendidikan</h3>
+        <ul>
+          <li>TK Shanti Kumara III Sempidi</li>
+          <li>SD Negeri 3 Baturiti</li>
+          <li>SMP Negeri 1 Baturiti</li>
+          <li>SMK Negeri 1 Denpasar - Teknik Audio Video (TAV), Lulus 2023</li>
+          <li>Politeknik Negeri Bali - Teknik Elektro, 2023 - Sekarang</li>
+        </ul>
+        <br />
+      
+        <h3>Organisasi, Kepanitiaan & Lomba</h3>
+        <ul>
+          <li>Peserta <strong>Lomba Kompetensi Siswa Nasional (LKSN) 2022</strong> – Electronics - <em>2022</em></li>
+          <li>Peserta <strong>Technocorner 2024</strong> – SumoBot - <em>2024</em></li>
+          <li>Peserta <strong>PNB ITC#16</strong> – SumoBot - <em>2024</em></li>
+          <li>Peserta <strong>PNB ITC#16</strong> – Mobile Legends - <em>2024</em></li>
+          <li>Peserta <strong>EAGLES S7</strong> – Mobile Legends - <em>2024</em></li>
+          <li>Peserta <strong>Java Robot Contest (JRC) 2024</strong> – SumoBot - <em>2024</em></li>
+          <li>Panitia <strong>English Competition X (ECOX)</strong> – Sie Perlengkapan dan Keamanan - <em>2024</em></li>
+          <li>Panitia <strong>PNB RC 2025</strong> – Sie Perlengkapan dan Keamanan - <em>Sekarang</em></li>
+          <li>Fungsionaris <strong>UKM Robotika</strong> – Anggota Divisi Robot - <em>Sekarang</em></li>
+        </ul>
+        <br />
+      
+        <h3>Pengalaman</h3>
+        <ul>
+          <li>Magang di <strong>Samsung Service Center</strong> - <em>2022</em></li>
+        </ul>
+        <br />
+      
+        <h3>Skill</h3>
+        <ul>
+          <li><strong>Laptop Diagnostic & Repair</strong>
+            <ul>
+              <li>Mendiagnosa dan memperbaiki laptop <em>mati total</em></li>
+              <li>Menangani masalah <em>no display</em></li>
+              <li>Pengukuran dan analisa tegangan motherboard</li>
+              <li>Penggantian IC, MOSFET, kapasitor, resistor SMD</li>
+              <li>Instal ulang OS dan driver</li>
+              <li>Backup data</li>
+            </ul>
+          </li>
+          <br />
+          <li><strong>PCB Design & Prototyping</strong>
+            <ul>
+              <li>Merancang PCB dengan Eagle PCB, EasyEDA</li>
+              <li>Desain skematik dan layout PCB</li>
+              <li>Pengujian dan pembuatan prototipe PCB</li>
+            </ul>
+          </li>
+        </ul>
+        <br />
+      </section>
+      
+      <section id="projects" class="content-section hidden">
+        <h2>Proyek Saya</h2>
+        <br />
+
+        <ul class="project-list">
+          <li>LoRaMod - Integrasi LoRa dengan Modbus</li>
+        </ul>
+        <div class="project-images">
+          <img src="picture/project/lora 3d.jpeg" alt="LoRaMod" class="project-image" />
+          <img src="picture/project/pcb lora.jpeg" alt="LoRaMod" class="project-image" />
+        </div>
+
+        <ul class="project-list">
+          <li>ESP32 Learning Module</li>
+        </ul>
+        <div class="project-images">
+          <img src="picture/project/ESP32 Learning Module.jpeg" alt="ESP32 Learning Module" class="project-image" />
+          <img src="picture/project/buttom esp.png" alt="ESP32 Learning Module" class="project-image" />
+          <img src="picture/project/top.png" alt="ESP32 Learning Module" class="project-image" />
+        </div>
+
+        <ul class="project-list">
+          <li>Izanami Controller</li>
+        </ul>
+        <div class="project-images">
+          <img src="picture/project/Izanami Controller.jpeg" alt="Izanami Controller" class="project-image" />
+        </div>
+
+        <ul class="project-list">
+          <li>ESP</li>
+        </ul>
+        <div class="project-images">
+          <img src="picture/project/esp.jpeg" alt="ESP" class="project-image" />
+        </div>
+      </section>
+
+      <section id="contact" class="content-section hidden">
+        <h2>Kontak Saya</h2>
+        <br />
+        <div class="contact-info">
+          <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email" class="icon-inline">
+            <a href="mailto:satyaiputu3@gmail.com">satyaiputu3@gmail.com</a>
+          </p>
+          <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="WhatsApp" class="icon-inline">
+            <a href="https://wa.me/6282340786895" target="_blank">+62 823-4078-6895</a>
+          </p>
+          <p>
+            <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="icon-inline">
+            <a href="https://www.instagram.com/sty.nggrdk/" target="_blank">@sty.nggrdk</a>
+          </p>
+        </div>
+      </section>
+        
+
+      <footer class="footer">
+        <p>&copy; stynggrdk 2025</p>
+      </footer>
+    </main>
+  </div>
+
+  <div class="menu-toggle" onclick="toggleSidebar()">⋮</div>
+
+  <script src="script.js"></script>
+  
+</body>
+</html>
