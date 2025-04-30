@@ -17,7 +17,7 @@ body {
 .container {
   display: flex;
   width: 100%;
-  overflow-x: auto; /* Menghindari konten meluber */
+  overflow-x: auto; 
 }
 
 /* Sidebar */
@@ -190,7 +190,7 @@ body {
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
-  width: 100%;  /* Pastikan home-container tidak meluber */
+  width: 100%;  
 }
 
 .home-image img {
@@ -202,7 +202,7 @@ body {
 .home-text {
   flex: 1;
   min-width: 300px;
-  padding: 10px; /* Pastikan teks tidak meluber */
+  padding: 20px; 
 }
 
 /* Menu Toggle (Mobile) */
@@ -255,7 +255,7 @@ body {
   .home-container {
       flex-direction: column;
       align-items: center;
-      gap: 20px;  /* Mengurangi jarak antar elemen */
+      gap: 20px;  
   }
 
   .home-image img {
@@ -296,8 +296,6 @@ body {
       margin-left: 250px;
   }
 }
-
-/* Active Link in Sidebar */
 .sidebar ul li a.active {
   background-color: #d35400;
   color: white;
@@ -309,7 +307,7 @@ body {
   height: 20px;
   margin-right: 8px;
   vertical-align: middle;
-  transform: translateY(-2px); /* Biar lebih sejajar */
+  transform: translateY(-2px); 
   transition: transform 0.3s ease;
 }
 
@@ -333,23 +331,28 @@ body {
   text-decoration: underline;
 }
 .foto-kegiatan {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  margin: 10px 0; /* margin atas dan bawah, kiri-kanan 0 */
+  margin: 10px 0;
   transition: transform 0.3s ease;
-  display: inline-block; /* atau block juga bisa, tergantung konteks layout */
+  display: inline-block;
 }
+
 
 ul li p {
   max-width: 600px;
 }
 .box {
-  display: flexbox;
+  display: flex;
+  flex-direction: column; 
   background-color: #ffffff;
   padding: 20px;
   border-radius: 12px;
   margin-bottom: 20px;
 
 }
+
+
